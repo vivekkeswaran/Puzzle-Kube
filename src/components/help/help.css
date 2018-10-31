@@ -1,0 +1,28 @@
+.help {
+    position: fixed !important;
+    text-align: right;
+    top: 5px;
+    right: 5px;
+    height: 4vw;
+    width: 9vw;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(139, 195, 74, 1);
+    font-size: 3vw;
+    font-family: 'Passion One', cursive, sans-serif;
+    z-index: 10;
+    overflow: hidden;
+    transition: height 0.3s ease-out, width 0.3s ease-out;
+}
+
+.help.collapsed {
+    height: 240px;
+    width: 300px;
+}
+
+.help-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
